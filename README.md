@@ -1,5 +1,7 @@
 # gocommentator
 
+![go-test](https://github.com/ealves-pt/gocommentator/workflows/go-test/badge.svg?branch=main)
+
 Checks that exported names have [Doc Comments](https://github.com/golang/go/wiki/CodeReviewComments#doc-comments)
 and that they have the right format.
 
