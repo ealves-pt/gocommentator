@@ -13,7 +13,7 @@ import (
 
 var Analyzer = &analysis.Analyzer{
 	Name:     "gocommentator",
-	Doc:      "Complains when exported names are missing comments or if they are not of the right form.",
+	Doc:      "Check that exported names have Doc Comments and that they have the right format.",
 	Run:      run,
 	Requires: []*analysis.Analyzer{inspect.Analyzer},
 }

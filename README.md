@@ -1,6 +1,6 @@
 # gocommentator
 
-Checks that all exported names have [Doc Comments](https://github.com/golang/go/wiki/CodeReviewComments#doc-comments)
+Checks that exported names have [Doc Comments](https://github.com/golang/go/wiki/CodeReviewComments#doc-comments)
 and that they have the right format.
 
 Shamelessly copy & pasted from [golang/lint](https://github.com/golang/lint) with
