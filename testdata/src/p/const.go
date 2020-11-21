@@ -1,5 +1,6 @@
 package p
 
+// Because the const is not exported any comment is valid
 const constNotExported = ""
 
 const (
@@ -20,6 +21,8 @@ const (
 	// This comment does not comply with the format
 	ConstBlockWronglyCommented = "" // want "comment on exported const ConstBlockWronglyCommented should be of the form "
 	ConstBlockUncommented      = "" // want "exported const ConstBlockUncommented should have comment "
+	// Because the const is not exported any comment is valid
+	contBlockUnexported = ""
 )
 
 // A block comment applies to all the items inside.

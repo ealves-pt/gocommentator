@@ -1,8 +1,10 @@
 package p
 
+// Because the var is not exported any comment is valid
 var varNotExported string
 
 var (
+	// Because the func is not exported any comment is valid
 	varBlockNotExported string
 )
 
@@ -25,6 +27,8 @@ var (
 	// This comment does not comply with the format
 	VarBlockWronglyCommented string // want "comment on exported var VarBlockWronglyCommented should be of the form "
 	VarBlockUncommented      string // want "exported var VarBlockUncommented should have comment or be unexported"
+	// Because the var is not exported any comment is valid
+	varBlockUnexported string
 )
 
 // A block comment applies to all the items inside.
